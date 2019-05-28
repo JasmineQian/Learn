@@ -1,0 +1,297 @@
+[2019-05-28 09:02:10.495] [http-nio-8085-exec-6][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent WHERE id =? 
+[2019-05-28 09:02:10.504] [http-nio-8085-exec-6][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==> Parameters: 1(Integer)
+[2019-05-28 09:02:10.540] [http-nio-8085-exec-6][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> <==      Total: 1
+[2019-05-28 09:02:11.374] [http-nio-8085-exec-4][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent WHERE id =? 
+[2019-05-28 09:02:11.380] [http-nio-8085-exec-4][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==> Parameters: 1(Integer)
+[2019-05-28 09:02:11.417] [http-nio-8085-exec-4][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> <==      Total: 1
+[2019-05-28 09:02:19.686] [http-nio-8085-exec-5][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent 
+[2019-05-28 09:02:19.686] [http-nio-8085-exec-5][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 09:02:19.723] [http-nio-8085-exec-5][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> <==      Total: 4
+[2019-05-28 09:02:21.761] [http-nio-8085-exec-3][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent WHERE id =? 
+[2019-05-28 09:02:21.761] [http-nio-8085-exec-3][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==> Parameters: 1(Integer)
+[2019-05-28 09:02:21.798] [http-nio-8085-exec-3][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> <==      Total: 1
+[2019-05-28 09:02:24.358] [http-nio-8085-exec-2][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent WHERE id =? 
+[2019-05-28 09:02:24.359] [http-nio-8085-exec-2][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==> Parameters: 1(Integer)
+[2019-05-28 09:02:24.395] [http-nio-8085-exec-2][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> <==      Total: 1
+[2019-05-28 09:02:26.625] [http-nio-8085-exec-1][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent WHERE id =? 
+[2019-05-28 09:02:26.626] [http-nio-8085-exec-1][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==> Parameters: 1(Integer)
+[2019-05-28 09:02:26.662] [http-nio-8085-exec-1][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> <==      Total: 1
+[2019-05-28 09:03:16.394] [http-nio-8085-exec-7][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent 
+[2019-05-28 09:03:16.394] [http-nio-8085-exec-7][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 09:03:16.431] [http-nio-8085-exec-7][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> <==      Total: 4
+[2019-05-28 09:03:33.670] [http-nio-8085-exec-9][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent WHERE id =? 
+[2019-05-28 09:03:33.670] [http-nio-8085-exec-9][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==> Parameters: 1(Integer)
+[2019-05-28 09:03:33.706] [http-nio-8085-exec-9][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> <==      Total: 1
+[2019-05-28 10:47:10.343] [main][INFO][com.example.demo.DemoApplication][logStarting] line:[50]-> Starting DemoApplication on jasqia7490 with PID 20736 (D:\00I_KuGou\demo4\target\classes started by jasqia in D:\00I_KuGou\demo4)
+[2019-05-28 10:47:10.345] [main][DEBUG][com.example.demo.DemoApplication][logStarting] line:[53]-> Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+[2019-05-28 10:47:10.346] [main][INFO][com.example.demo.DemoApplication][logStartupProfileInfo] line:[675]-> No active profile set, falling back to default profiles: default
+[2019-05-28 10:47:12.494] [main][INFO][com.example.demo.DemoApplication][logStarted] line:[59]-> Started DemoApplication in 2.554 seconds (JVM running for 3.146)
+[2019-05-28 10:57:52.871] [main][INFO][com.example.demo.DemoApplication][logStarting] line:[50]-> Starting DemoApplication on jasqia7490 with PID 16256 (D:\00I_KuGou\demo4\target\classes started by jasqia in D:\00I_KuGou\demo4)
+[2019-05-28 10:57:52.875] [main][DEBUG][com.example.demo.DemoApplication][logStarting] line:[53]-> Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+[2019-05-28 10:57:52.876] [main][INFO][com.example.demo.DemoApplication][logStartupProfileInfo] line:[675]-> No active profile set, falling back to default profiles: default
+[2019-05-28 10:57:54.839] [main][INFO][com.example.demo.DemoApplication][logStarted] line:[59]-> Started DemoApplication in 2.329 seconds (JVM running for 2.946)
+[2019-05-28 11:00:44.353] [http-nio-8085-exec-1][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==>  Preparing: select id,name from btype where cid =1; 
+[2019-05-28 11:00:44.372] [http-nio-8085-exec-1][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:00:44.423] [http-nio-8085-exec-1][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> <==      Total: 8
+[2019-05-28 11:08:14.284] [http-nio-8085-exec-10][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==>  Preparing: select id,name from btype where cid =1; 
+[2019-05-28 11:08:14.286] [http-nio-8085-exec-10][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:08:14.331] [http-nio-8085-exec-10][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> <==      Total: 8
+[2019-05-28 11:08:34.393] [http-nio-8085-exec-9][DEBUG][com.example.demo.mapper.ContentMapper.insert][debug] line:[143]-> ==>  Preparing: insert bcontent(tid,uid,time ,description,details,creationdt,updatedt) values(?,1,now(),?,?, now(), now()) 
+[2019-05-28 11:08:34.394] [http-nio-8085-exec-9][DEBUG][com.example.demo.mapper.ContentMapper.insert][debug] line:[143]-> ==> Parameters: 8(Integer), 测试(String), 案件的法律世纪东方垃圾啊打扫房间两个地方的
+案件开发萨达asld负df
+大富豪dsh
+(String)
+[2019-05-28 11:08:34.469] [http-nio-8085-exec-9][DEBUG][com.example.demo.mapper.ContentMapper.insert][debug] line:[143]-> <==    Updates: 1
+[2019-05-28 11:08:36.429] [http-nio-8085-exec-1][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent 
+[2019-05-28 11:08:36.430] [http-nio-8085-exec-1][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:08:36.471] [http-nio-8085-exec-1][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> <==      Total: 5
+[2019-05-28 11:10:16.068] [http-nio-8085-exec-4][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==>  Preparing: select id,name from btype where cid =1; 
+[2019-05-28 11:10:16.069] [http-nio-8085-exec-4][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:10:16.106] [http-nio-8085-exec-4][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> <==      Total: 8
+[2019-05-28 11:11:19.340] [http-nio-8085-exec-5][DEBUG][com.example.demo.mapper.ContentMapper.insert][debug] line:[143]-> ==>  Preparing: insert bcontent(tid,uid,time ,description,details,creationdt,updatedt) values(?,1,now(),?,?, now(), now()) 
+[2019-05-28 11:11:19.341] [http-nio-8085-exec-5][DEBUG][com.example.demo.mapper.ContentMapper.insert][debug] line:[143]-> ==> Parameters: 5(Integer), 测试学习分类(String), 实打实(String)
+[2019-05-28 11:11:19.418] [http-nio-8085-exec-5][DEBUG][com.example.demo.mapper.ContentMapper.insert][debug] line:[143]-> <==    Updates: 1
+[2019-05-28 11:11:22.230] [http-nio-8085-exec-3][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent 
+[2019-05-28 11:11:22.231] [http-nio-8085-exec-3][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:11:22.275] [http-nio-8085-exec-3][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> <==      Total: 6
+[2019-05-28 11:11:25.665] [http-nio-8085-exec-8][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==>  Preparing: select id,name from btype where cid =1; 
+[2019-05-28 11:11:25.665] [http-nio-8085-exec-8][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:11:25.702] [http-nio-8085-exec-8][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> <==      Total: 8
+[2019-05-28 11:11:35.668] [http-nio-8085-exec-10][DEBUG][com.example.demo.mapper.ContentMapper.insert][debug] line:[143]-> ==>  Preparing: insert bcontent(tid,uid,time ,description,details,creationdt,updatedt) values(?,1,now(),?,?, now(), now()) 
+[2019-05-28 11:11:35.670] [http-nio-8085-exec-10][DEBUG][com.example.demo.mapper.ContentMapper.insert][debug] line:[143]-> ==> Parameters: 8(Integer), 测试分类(String), 奥术大师(String)
+[2019-05-28 11:11:35.747] [http-nio-8085-exec-10][DEBUG][com.example.demo.mapper.ContentMapper.insert][debug] line:[143]-> <==    Updates: 1
+[2019-05-28 11:11:37.745] [http-nio-8085-exec-7][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent 
+[2019-05-28 11:11:37.746] [http-nio-8085-exec-7][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:11:37.787] [http-nio-8085-exec-7][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> <==      Total: 7
+[2019-05-28 11:15:47.346] [http-nio-8085-exec-1][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==>  Preparing: select id,name from btype where cid =1; 
+[2019-05-28 11:15:47.346] [http-nio-8085-exec-1][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:15:47.386] [http-nio-8085-exec-1][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> <==      Total: 8
+[2019-05-28 11:18:26.439] [http-nio-8085-exec-4][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent 
+[2019-05-28 11:18:26.440] [http-nio-8085-exec-4][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:18:26.479] [http-nio-8085-exec-4][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> <==      Total: 7
+[2019-05-28 11:21:10.764] [http-nio-8085-exec-5][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent WHERE id =? 
+[2019-05-28 11:21:10.765] [http-nio-8085-exec-5][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==> Parameters: 1(Integer)
+[2019-05-28 11:21:10.805] [http-nio-8085-exec-5][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> <==      Total: 1
+[2019-05-28 11:21:13.223] [http-nio-8085-exec-3][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent 
+[2019-05-28 11:21:13.223] [http-nio-8085-exec-3][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:21:13.269] [http-nio-8085-exec-3][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> <==      Total: 7
+[2019-05-28 11:21:19.100] [http-nio-8085-exec-8][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent WHERE id =? 
+[2019-05-28 11:21:19.100] [http-nio-8085-exec-8][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==> Parameters: 1(Integer)
+[2019-05-28 11:21:19.137] [http-nio-8085-exec-8][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> <==      Total: 1
+[2019-05-28 11:25:36.739] [http-nio-8085-exec-7][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent WHERE id =? 
+[2019-05-28 11:25:36.740] [http-nio-8085-exec-7][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==> Parameters: 1(Integer)
+[2019-05-28 11:25:36.782] [http-nio-8085-exec-7][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> <==      Total: 1
+[2019-05-28 11:25:50.432] [http-nio-8085-exec-9][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent WHERE id =? 
+[2019-05-28 11:25:50.433] [http-nio-8085-exec-9][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==> Parameters: 1(Integer)
+[2019-05-28 11:25:50.471] [http-nio-8085-exec-9][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> <==      Total: 1
+[2019-05-28 11:25:55.503] [http-nio-8085-exec-1][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent 
+[2019-05-28 11:25:55.503] [http-nio-8085-exec-1][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:25:55.542] [http-nio-8085-exec-1][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> <==      Total: 7
+[2019-05-28 11:25:57.629] [http-nio-8085-exec-2][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent WHERE id =? 
+[2019-05-28 11:25:57.629] [http-nio-8085-exec-2][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==> Parameters: 1(Integer)
+[2019-05-28 11:25:57.667] [http-nio-8085-exec-2][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> <==      Total: 1
+[2019-05-28 11:25:59.621] [http-nio-8085-exec-4][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent 
+[2019-05-28 11:25:59.621] [http-nio-8085-exec-4][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:25:59.660] [http-nio-8085-exec-4][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> <==      Total: 7
+[2019-05-28 11:26:00.831] [http-nio-8085-exec-6][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent WHERE id =? 
+[2019-05-28 11:26:00.831] [http-nio-8085-exec-6][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==> Parameters: 1(Integer)
+[2019-05-28 11:26:00.867] [http-nio-8085-exec-6][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> <==      Total: 1
+[2019-05-28 11:26:02.548] [http-nio-8085-exec-5][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent 
+[2019-05-28 11:26:02.550] [http-nio-8085-exec-5][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:26:02.593] [http-nio-8085-exec-5][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> <==      Total: 7
+[2019-05-28 11:26:04.143] [http-nio-8085-exec-3][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent WHERE id =? 
+[2019-05-28 11:26:04.145] [http-nio-8085-exec-3][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==> Parameters: 1(Integer)
+[2019-05-28 11:26:04.184] [http-nio-8085-exec-3][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> <==      Total: 1
+[2019-05-28 11:26:06.428] [http-nio-8085-exec-8][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent 
+[2019-05-28 11:26:06.428] [http-nio-8085-exec-8][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:26:06.466] [http-nio-8085-exec-8][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> <==      Total: 7
+[2019-05-28 11:27:21.889] [http-nio-8085-exec-7][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent 
+[2019-05-28 11:27:21.889] [http-nio-8085-exec-7][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:27:21.926] [http-nio-8085-exec-7][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> <==      Total: 7
+[2019-05-28 11:27:47.692] [http-nio-8085-exec-9][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent 
+[2019-05-28 11:27:47.694] [http-nio-8085-exec-9][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:27:47.732] [http-nio-8085-exec-9][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> <==      Total: 7
+[2019-05-28 11:27:52.269] [http-nio-8085-exec-1][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent 
+[2019-05-28 11:27:52.269] [http-nio-8085-exec-1][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:27:52.312] [http-nio-8085-exec-1][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> <==      Total: 7
+[2019-05-28 11:27:53.636] [http-nio-8085-exec-2][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent WHERE id =? 
+[2019-05-28 11:27:53.637] [http-nio-8085-exec-2][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==> Parameters: 1(Integer)
+[2019-05-28 11:27:53.674] [http-nio-8085-exec-2][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> <==      Total: 1
+[2019-05-28 11:27:55.211] [http-nio-8085-exec-4][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent 
+[2019-05-28 11:27:55.212] [http-nio-8085-exec-4][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:27:55.251] [http-nio-8085-exec-4][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> <==      Total: 7
+[2019-05-28 11:28:00.658] [http-nio-8085-exec-6][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent 
+[2019-05-28 11:28:00.658] [http-nio-8085-exec-6][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:28:00.696] [http-nio-8085-exec-6][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> <==      Total: 7
+[2019-05-28 11:28:52.676] [http-nio-8085-exec-3][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent 
+[2019-05-28 11:28:52.677] [http-nio-8085-exec-3][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:28:52.718] [http-nio-8085-exec-3][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> <==      Total: 7
+[2019-05-28 11:30:15.779] [http-nio-8085-exec-10][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent 
+[2019-05-28 11:30:15.780] [http-nio-8085-exec-10][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:30:15.822] [http-nio-8085-exec-10][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> <==      Total: 7
+[2019-05-28 11:30:16.093] [http-nio-8085-exec-7][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent 
+[2019-05-28 11:30:16.094] [http-nio-8085-exec-7][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:30:16.140] [http-nio-8085-exec-7][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> <==      Total: 7
+[2019-05-28 11:30:17.165] [http-nio-8085-exec-9][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent WHERE id =? 
+[2019-05-28 11:30:17.165] [http-nio-8085-exec-9][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==> Parameters: 1(Integer)
+[2019-05-28 11:30:17.203] [http-nio-8085-exec-9][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> <==      Total: 1
+[2019-05-28 11:30:32.392] [http-nio-8085-exec-2][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent 
+[2019-05-28 11:30:32.393] [http-nio-8085-exec-2][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:30:32.434] [http-nio-8085-exec-2][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> <==      Total: 7
+[2019-05-28 11:30:33.514] [http-nio-8085-exec-4][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent WHERE id =? 
+[2019-05-28 11:30:33.514] [http-nio-8085-exec-4][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==> Parameters: 1(Integer)
+[2019-05-28 11:30:33.552] [http-nio-8085-exec-4][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> <==      Total: 1
+[2019-05-28 11:30:34.485] [http-nio-8085-exec-6][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent 
+[2019-05-28 11:30:34.486] [http-nio-8085-exec-6][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:30:34.525] [http-nio-8085-exec-6][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> <==      Total: 7
+[2019-05-28 11:30:35.502] [http-nio-8085-exec-5][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent WHERE id =? 
+[2019-05-28 11:30:35.502] [http-nio-8085-exec-5][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==> Parameters: 1(Integer)
+[2019-05-28 11:30:35.541] [http-nio-8085-exec-5][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> <==      Total: 1
+[2019-05-28 11:30:36.931] [http-nio-8085-exec-3][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent 
+[2019-05-28 11:30:36.932] [http-nio-8085-exec-3][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:30:36.973] [http-nio-8085-exec-3][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> <==      Total: 7
+[2019-05-28 11:30:38.026] [http-nio-8085-exec-8][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent WHERE id =? 
+[2019-05-28 11:30:38.026] [http-nio-8085-exec-8][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==> Parameters: 1(Integer)
+[2019-05-28 11:30:38.065] [http-nio-8085-exec-8][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> <==      Total: 1
+[2019-05-28 11:30:38.811] [http-nio-8085-exec-10][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent 
+[2019-05-28 11:30:38.812] [http-nio-8085-exec-10][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:30:38.849] [http-nio-8085-exec-10][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> <==      Total: 7
+[2019-05-28 11:30:39.941] [http-nio-8085-exec-7][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent WHERE id =? 
+[2019-05-28 11:30:39.941] [http-nio-8085-exec-7][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==> Parameters: 1(Integer)
+[2019-05-28 11:30:39.978] [http-nio-8085-exec-7][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> <==      Total: 1
+[2019-05-28 11:30:40.886] [http-nio-8085-exec-9][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent 
+[2019-05-28 11:30:40.886] [http-nio-8085-exec-9][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:30:40.924] [http-nio-8085-exec-9][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> <==      Total: 7
+[2019-05-28 11:31:04.273] [http-nio-8085-exec-1][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent WHERE id =? 
+[2019-05-28 11:31:04.274] [http-nio-8085-exec-1][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==> Parameters: 1(Integer)
+[2019-05-28 11:31:04.312] [http-nio-8085-exec-1][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> <==      Total: 1
+[2019-05-28 11:31:05.262] [http-nio-8085-exec-2][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent 
+[2019-05-28 11:31:05.262] [http-nio-8085-exec-2][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:31:05.300] [http-nio-8085-exec-2][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> <==      Total: 7
+[2019-05-28 11:46:33.497] [http-nio-8085-exec-6][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent 
+[2019-05-28 11:46:33.498] [http-nio-8085-exec-6][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:46:33.536] [http-nio-8085-exec-6][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> <==      Total: 7
+[2019-05-28 11:46:38.101] [http-nio-8085-exec-5][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent WHERE id =? 
+[2019-05-28 11:46:38.101] [http-nio-8085-exec-5][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==> Parameters: 1(Integer)
+[2019-05-28 11:46:38.138] [http-nio-8085-exec-5][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> <==      Total: 1
+[2019-05-28 11:46:39.251] [http-nio-8085-exec-3][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent 
+[2019-05-28 11:46:39.252] [http-nio-8085-exec-3][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:46:39.290] [http-nio-8085-exec-3][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> <==      Total: 7
+[2019-05-28 11:46:40.720] [http-nio-8085-exec-8][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent WHERE id =? 
+[2019-05-28 11:46:40.721] [http-nio-8085-exec-8][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==> Parameters: 1(Integer)
+[2019-05-28 11:46:40.759] [http-nio-8085-exec-8][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> <==      Total: 1
+[2019-05-28 11:46:43.977] [http-nio-8085-exec-10][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent 
+[2019-05-28 11:46:43.978] [http-nio-8085-exec-10][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:46:44.016] [http-nio-8085-exec-10][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> <==      Total: 7
+[2019-05-28 11:46:45.643] [http-nio-8085-exec-7][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent WHERE id =? 
+[2019-05-28 11:46:45.643] [http-nio-8085-exec-7][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==> Parameters: 1(Integer)
+[2019-05-28 11:46:45.682] [http-nio-8085-exec-7][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> <==      Total: 1
+[2019-05-28 11:46:46.341] [http-nio-8085-exec-9][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==>  Preparing: select id,name from btype where cid =1; 
+[2019-05-28 11:46:46.343] [http-nio-8085-exec-9][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:46:46.380] [http-nio-8085-exec-9][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> <==      Total: 8
+[2019-05-28 11:46:47.144] [http-nio-8085-exec-1][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent 
+[2019-05-28 11:46:47.145] [http-nio-8085-exec-1][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:46:47.187] [http-nio-8085-exec-1][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> <==      Total: 7
+[2019-05-28 11:50:32.968] [http-nio-8085-exec-4][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent 
+[2019-05-28 11:50:32.969] [http-nio-8085-exec-4][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:50:33.007] [http-nio-8085-exec-4][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> <==      Total: 7
+[2019-05-28 11:50:38.911] [http-nio-8085-exec-6][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent 
+[2019-05-28 11:50:38.911] [http-nio-8085-exec-6][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:50:38.952] [http-nio-8085-exec-6][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> <==      Total: 7
+[2019-05-28 11:50:41.679] [http-nio-8085-exec-5][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent 
+[2019-05-28 11:50:41.680] [http-nio-8085-exec-5][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:50:41.719] [http-nio-8085-exec-5][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> <==      Total: 7
+[2019-05-28 11:50:45.876] [http-nio-8085-exec-3][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent WHERE id =? 
+[2019-05-28 11:50:45.876] [http-nio-8085-exec-3][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> ==> Parameters: 1(Integer)
+[2019-05-28 11:50:45.914] [http-nio-8085-exec-3][DEBUG][com.example.demo.mapper.ContentMapper.getByid][debug] line:[143]-> <==      Total: 1
+[2019-05-28 11:50:48.811] [http-nio-8085-exec-8][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent 
+[2019-05-28 11:50:48.812] [http-nio-8085-exec-8][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:50:48.855] [http-nio-8085-exec-8][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> <==      Total: 7
+[2019-05-28 11:54:55.189] [http-nio-8085-exec-7][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==>  Preparing: select id,name from btype where cid =1; 
+[2019-05-28 11:54:55.190] [http-nio-8085-exec-7][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:54:55.227] [http-nio-8085-exec-7][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> <==      Total: 8
+[2019-05-28 11:55:07.382] [http-nio-8085-exec-9][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==>  Preparing: select id,name from btype where cid =1; 
+[2019-05-28 11:55:07.382] [http-nio-8085-exec-9][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:55:07.419] [http-nio-8085-exec-9][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> <==      Total: 8
+[2019-05-28 11:55:47.722] [http-nio-8085-exec-1][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==>  Preparing: select id,name from btype where cid =1; 
+[2019-05-28 11:55:47.723] [http-nio-8085-exec-1][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:55:47.761] [http-nio-8085-exec-1][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> <==      Total: 8
+[2019-05-28 11:55:51.756] [http-nio-8085-exec-2][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==>  Preparing: select id,name from btype where cid =1; 
+[2019-05-28 11:55:51.757] [http-nio-8085-exec-2][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:55:51.793] [http-nio-8085-exec-2][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> <==      Total: 8
+[2019-05-28 11:56:19.077] [http-nio-8085-exec-4][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==>  Preparing: select id,name from btype where cid =1; 
+[2019-05-28 11:56:19.078] [http-nio-8085-exec-4][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:56:19.120] [http-nio-8085-exec-4][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> <==      Total: 8
+[2019-05-28 11:57:26.169] [http-nio-8085-exec-5][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==>  Preparing: select id,name from btype where cid =1; 
+[2019-05-28 11:57:26.170] [http-nio-8085-exec-5][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:57:26.208] [http-nio-8085-exec-5][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> <==      Total: 8
+[2019-05-28 11:57:33.528] [http-nio-8085-exec-3][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==>  Preparing: select id,name from btype where cid =1; 
+[2019-05-28 11:57:33.529] [http-nio-8085-exec-3][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:57:33.567] [http-nio-8085-exec-3][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> <==      Total: 8
+[2019-05-28 11:58:20.286] [http-nio-8085-exec-8][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==>  Preparing: select id,name from btype where cid =1; 
+[2019-05-28 11:58:20.286] [http-nio-8085-exec-8][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:58:20.323] [http-nio-8085-exec-8][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> <==      Total: 8
+[2019-05-28 11:58:23.533] [http-nio-8085-exec-10][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==>  Preparing: select id,name from btype where cid =1; 
+[2019-05-28 11:58:23.535] [http-nio-8085-exec-10][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:58:23.571] [http-nio-8085-exec-10][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> <==      Total: 8
+[2019-05-28 11:58:44.755] [http-nio-8085-exec-9][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==>  Preparing: select id,name from btype where cid =1; 
+[2019-05-28 11:58:44.755] [http-nio-8085-exec-9][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:58:44.792] [http-nio-8085-exec-9][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> <==      Total: 8
+[2019-05-28 11:58:47.279] [http-nio-8085-exec-1][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==>  Preparing: select id,name from btype where cid =1; 
+[2019-05-28 11:58:47.280] [http-nio-8085-exec-1][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:58:47.317] [http-nio-8085-exec-1][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> <==      Total: 8
+[2019-05-28 11:59:12.179] [http-nio-8085-exec-2][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==>  Preparing: select id,name from btype where cid =1; 
+[2019-05-28 11:59:12.179] [http-nio-8085-exec-2][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:59:12.219] [http-nio-8085-exec-2][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> <==      Total: 8
+[2019-05-28 11:59:16.713] [http-nio-8085-exec-4][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==>  Preparing: select id,name from btype where cid =1; 
+[2019-05-28 11:59:16.713] [http-nio-8085-exec-4][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 11:59:16.751] [http-nio-8085-exec-4][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> <==      Total: 8
+[2019-05-28 12:00:44.694] [http-nio-8085-exec-5][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==>  Preparing: select id,name from btype where cid =1; 
+[2019-05-28 12:00:44.695] [http-nio-8085-exec-5][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 12:00:44.732] [http-nio-8085-exec-5][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> <==      Total: 8
+[2019-05-28 12:01:09.951] [http-nio-8085-exec-3][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==>  Preparing: select id,name from btype where cid =1; 
+[2019-05-28 12:01:09.952] [http-nio-8085-exec-3][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 12:01:09.988] [http-nio-8085-exec-3][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> <==      Total: 8
+[2019-05-28 12:01:12.396] [http-nio-8085-exec-8][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==>  Preparing: select id,name from btype where cid =1; 
+[2019-05-28 12:01:12.396] [http-nio-8085-exec-8][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 12:01:12.434] [http-nio-8085-exec-8][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> <==      Total: 8
+[2019-05-28 12:01:56.193] [http-nio-8085-exec-7][DEBUG][com.example.demo.mapper.ContentMapper.insert][debug] line:[143]-> ==>  Preparing: insert bcontent(tid,uid,time ,description,details,creationdt,updatedt) values(?,1,now(),?,?, now(), now()) 
+[2019-05-28 12:01:56.194] [http-nio-8085-exec-7][DEBUG][com.example.demo.mapper.ContentMapper.insert][debug] line:[143]-> ==> Parameters: 5(Integer), 英语(String), cow 奶牛
+sheep 绵羊
+horse 
+                   .-' _..`.
+                  /  .'_.'.'
+                 | .' (.)`.
+                 ;'   ,_   `.
+ .--.__________.'    ;  `.;-'
+|  ./               /
+|  |               / 
+`..'`-._  _____, ..'
+     / | |     | |\ \
+    / /| |     | | \ \
+   / / | |     | |  \ \
+  /_/  |_|     |_|   \_\
+ |__\  |__\    |__\  |__\(String)
+[2019-05-28 12:01:56.269] [http-nio-8085-exec-7][DEBUG][com.example.demo.mapper.ContentMapper.insert][debug] line:[143]-> <==    Updates: 1
+[2019-05-28 12:01:59.640] [http-nio-8085-exec-9][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==>  Preparing: select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent 
+[2019-05-28 12:01:59.641] [http-nio-8085-exec-9][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 12:01:59.679] [http-nio-8085-exec-9][DEBUG][com.example.demo.mapper.ContentMapper.getContents][debug] line:[143]-> <==      Total: 8
+[2019-05-28 12:09:26.238] [http-nio-8085-exec-2][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==>  Preparing: select id,name from btype where cid =1; 
+[2019-05-28 12:09:26.238] [http-nio-8085-exec-2][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 12:09:26.276] [http-nio-8085-exec-2][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> <==      Total: 8
+[2019-05-28 12:16:36.261] [http-nio-8085-exec-3][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==>  Preparing: select id,name from btype where cid =1; 
+[2019-05-28 12:16:36.263] [http-nio-8085-exec-3][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 12:16:36.300] [http-nio-8085-exec-3][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> <==      Total: 8
+[2019-05-28 12:17:10.219] [http-nio-8085-exec-7][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==>  Preparing: select id,name from btype where cid =1; 
+[2019-05-28 12:17:10.219] [http-nio-8085-exec-7][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 12:17:10.262] [http-nio-8085-exec-7][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> <==      Total: 8
+[2019-05-28 12:22:56.668] [http-nio-8085-exec-1][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==>  Preparing: select id,name from btype where cid =1; 
+[2019-05-28 12:22:56.668] [http-nio-8085-exec-1][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 12:22:56.706] [http-nio-8085-exec-1][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> <==      Total: 8
+[2019-05-28 12:23:02.876] [http-nio-8085-exec-8][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==>  Preparing: select id,name from btype where cid =1; 
+[2019-05-28 12:23:02.876] [http-nio-8085-exec-8][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> ==> Parameters: 
+[2019-05-28 12:23:02.914] [http-nio-8085-exec-8][DEBUG][com.example.demo.mapper.TypeMapper.getTypes][debug] line:[143]-> <==      Total: 8
+[2019-05-28 13:43:11.552] [main][INFO][com.example.demo.DemoApplication][logStarting] line:[50]-> Starting DemoApplication on jasqia7490 with PID 17076 (D:\00I_KuGou\demo4\target\classes started by jasqia in D:\00I_KuGou\demo4)
+[2019-05-28 13:43:11.555] [main][DEBUG][com.example.demo.DemoApplication][logStarting] line:[53]-> Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+[2019-05-28 13:43:11.556] [main][INFO][com.example.demo.DemoApplication][logStartupProfileInfo] line:[675]-> No active profile set, falling back to default profiles: default
+[2019-05-28 13:43:13.989] [main][INFO][com.example.demo.DemoApplication][logStarted] line:[59]-> Started DemoApplication in 2.993 seconds (JVM running for 3.878)

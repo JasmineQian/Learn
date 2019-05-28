@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.demo.mapper.TypeMapper">
+
+
+    <resultMap id="Result" type="com.example.demo.bean.Type">
+        <result property="id" column="id"/>
+        <result property="name" column="name"/>
+
+    </resultMap>
+
+    <select id="getTypes" resultMap="Result">
+        select id,name from btype where cid =1;
+    </select>
+</mapper>
