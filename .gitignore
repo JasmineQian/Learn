@@ -13,6 +13,8 @@ HELP.md
 
 ### IntelliJ IDEA ###
 .idea
+logs/
+.mvn/
 *.iws
 *.iml
 *.ipr
