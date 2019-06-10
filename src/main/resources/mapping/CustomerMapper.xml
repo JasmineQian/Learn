@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.demo.mapper.CustomerMapper">
+
+    <resultMap id="Result" type="com.example.demo.bean.Customer">
+        <result property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="phone" column="phone"/>
+        <result property="email" column="email"/>
+        <result property="education" column="education"/>
+        <result property="graduationschool" column="graduationschool"/>
+        <result property="profession" column="profession"/>
+        <result property="profile" column="profile"/>
+    </resultMap>
+
+    <select id="findById" resultMap="Result">
+        select  id, name,phone,email,education,graduationschool,profession,profile from bcustomer
+        WHERE id =#{id}
+    </select>
+
+    <select id="findAll" resultMap="Result">
+        select  id, name,phone,email,education,graduationschool,profession,profile from bcustomer
+   </select>
+
+    <update id="update" parameterType="com.example.demo.bean.Customer">
+        update bcustomer set name = #{name},phone= #{phone},email = #{email},education = #{education},
+        graduationschool= #{graduationschool},profession = #{profession},
+        profile=#{profile},
+        updatedt = now()
+        where id = #{id}
+    </update>
+
+
+    <insert id="insert" parameterType="com.example.demo.bean.Customer">
+        insert bcustomer(name,phone,email,education,graduationschool,profession,profile,createdt,updatedt)
+        values(#{name},#{phone},#{email},#{education},#{graduationschool},#{profession},#{profile},
+        now(),now())
+    </insert>
+
+</mapper>
