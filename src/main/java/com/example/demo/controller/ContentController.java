@@ -56,9 +56,10 @@ public class ContentController {
 
     @ApiOperation(value = "更新Content内容", notes = "更新Content内容")
     @ApiImplicitParam(dataType = "ContentUpdateRequest", name = "content", value = "增加content信息", required = true)
-    @PostMapping(value = "/update")
+    @PostMapping(value = "/update/{id}")
     public int updateContent(@PathVariable("id") int id,@RequestBody ContentUpdateRequest content) {
         content.setId(id);
+        System.out.println(content);
         int count = contentService.update(content);
         return count;
     }
