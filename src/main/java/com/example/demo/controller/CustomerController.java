@@ -17,7 +17,6 @@ import java.util.List;
 
 @Validated
 @RestController
-@RequestMapping("api/")
 @Api(value = "用户的新增和减少", description = "查询信息并对学习的信息进行增删查改", position = 0)
 public class CustomerController {
 

@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @Controller
-public class indexContent {
+public class IndexContent {
 
-    @GetMapping({"/", "/index"})
+    @GetMapping({"/", "/index","/home"})
     public String index(){
         return "index";
     }
