@@ -40,7 +40,7 @@ public class ContentController {
     @ApiOperation(value = "展示列表请求接口", notes = "展示列表请求接口")
     @ApiImplicitParam(dataType = "", name = "", value = "展示列表请求接口")
     @GetMapping(value = "/show/{id}")
-    public Content findone(@PathVariable("id") int id) {
+    public Content findById(@PathVariable("id") int id) {
         Content content= contentService.getByid(id);
         return content;
     }
@@ -48,7 +48,7 @@ public class ContentController {
     @ApiOperation(value = "增加新的信息", notes = "增加新的信息")
     @ApiImplicitParam(dataType = "ContentUpdateRequest", name = "content", value = "content")
     @PostMapping(value = "/add")
-    public int AddContent(@RequestBody ContentUpdateRequest content) {
+    public int addContent(@RequestBody ContentUpdateRequest content) {
         int count= contentService.insert(content);
         return count;
     }
@@ -57,7 +57,8 @@ public class ContentController {
     @ApiOperation(value = "更新Content内容", notes = "更新Content内容")
     @ApiImplicitParam(dataType = "ContentUpdateRequest", name = "content", value = "增加content信息", required = true)
     @PostMapping(value = "/update")
-    public int update(@RequestBody ContentUpdateRequest content) {
+    public int updateContent(@PathVariable("id") int id,@RequestBody ContentUpdateRequest content) {
+        content.setId(id);
         int count = contentService.update(content);
         return count;
     }
