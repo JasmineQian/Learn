@@ -18,8 +18,8 @@ import java.util.List;
 
 @Validated
 @RestController
-//@RequestMapping("api/content")
-@RequestMapping("content")
+@RequestMapping("api/content")
+//@RequestMapping("content")
 @Api(value = "对学习进行增删查改", description = "查询信息并对学习的信息进行增删查改", position = 0)
 public class ContentController {
 

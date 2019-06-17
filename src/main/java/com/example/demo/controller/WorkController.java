@@ -20,8 +20,8 @@ import java.util.List;
 
 @Validated
 @RestController
-//@RequestMapping("api/content")
-@RequestMapping("work")
+@RequestMapping("api/content")
+//@RequestMapping("work")
 @Api(value = "对工作进行增删查改", description = "对工作进行增删查改", position = 0)
 public class WorkController {
 
