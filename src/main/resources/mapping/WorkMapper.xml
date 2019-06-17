@@ -28,7 +28,7 @@
 
     <insert id="insert" parameterType="com.example.demo.bean.Work">
         insert bwork(uid,record,creationdt,updatedt)
-        values( #{tid},#{record},now(), now())
+        values( #{uid},#{record},now(), now())
     </insert>
 
     <update id="updateById" parameterType="com.example.demo.bean.Work">

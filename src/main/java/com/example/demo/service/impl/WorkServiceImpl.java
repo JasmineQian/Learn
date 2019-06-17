@@ -36,16 +36,19 @@ public class WorkServiceImpl implements WorkService {
 
     @Override
     public Work getByid(int id) {
-        return null;
+        Work work = workMapper.getByid(id);
+        return work;
     }
 
     @Override
     public int insert(Work work) {
-        return 0;
+        int count = workMapper.insert(work);
+        return count;
     }
 
     @Override
     public int update(Work work) {
-        return 0;
+        int count = workMapper.updateById(work);
+        return count;
     }
 }
