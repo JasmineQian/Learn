@@ -26,8 +26,8 @@ public class CustomerController {
     @Autowired
     CustomerService customerService;
 
-    @ApiOperation(value = "展示列表请求接口", notes = "展示列表请求接口")
-    @ApiImplicitParam(dataType = "Customer", name = "Customer", value = "展示列表请求接口")
+    @ApiOperation(value = "增加用户信息", notes = "增加用户信息")
+    @ApiImplicitParam(dataType = "Customer", name = "Customer", value = "增加用户信息")
     @PostMapping(value = "/users")
     public int users(@RequestBody Customer customer) {
         System.out.println(customer);

@@ -10,6 +10,7 @@
         <result property="datetime" column="time"/>
         <result property="desc" column="description"/>
         <result property="details" column="details"/>
+        <result property="remark" column="remark"/>
         <result property="creationdt" column="creationdt"/>
         <result property="updatedt" column="updatedt"/>
         <result property="creationuid" column="creationuid"/>
@@ -17,13 +18,14 @@
     </resultMap>
 
     <select id="getByid" resultMap="Result">
-        select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt from bcontent
+        select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,remark,creationdt,updatedt
+        from bcontent
         WHERE id =#{id}
     </select>
 
 
     <select id="getContents" resultMap="Result">
-        select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,creationdt,updatedt
+        select id,tid,uid,DATE_FORMAT(time,'%Y年%m月%d日') as time ,description,details,remark,creationdt,updatedt
         from bcontent
         order by id desc
     </select>
@@ -35,7 +37,7 @@
     </insert>
 
     <update id="updateById" parameterType="com.example.demo.bean.ContentUpdateRequest">
-        update bcontent set tid = #{tid},description = #{desc},details = #{details},
+        update bcontent set tid = #{tid},description = #{desc},details = #{details},remark=#{remark},
         updatedt = now()
         where id = #{id}
     </update>

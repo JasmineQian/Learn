@@ -9,6 +9,7 @@ public class ContentUpdateRequest {
     private String datetime;
     private String desc;
     private String details;
+    private String remark;
 
 
     public long getId() {
@@ -59,6 +60,13 @@ public class ContentUpdateRequest {
         this.details = details;
     }
 
+    public String getRemark() {
+        return remark;
+    }
+
+    public void setRemark(String remark) {
+        this.remark = remark;
+    }
 
     @Override
     public String toString() {
@@ -69,6 +77,7 @@ public class ContentUpdateRequest {
                 ", datetime='" + datetime + '\'' +
                 ", desc='" + desc + '\'' +
                 ", details='" + details + '\'' +
+                ", remark='" + remark + '\'' +
                 '}';
     }
 }

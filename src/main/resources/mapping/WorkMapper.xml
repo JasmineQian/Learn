@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.demo.mapper.WorkMapper">
+
+
+    <resultMap id="Result" type="com.example.demo.bean.Work">
+        <result property="id" column="id"/>
+        <result property="uid" column="uid"/>
+        <result property="record" column="record"/>
+        <result property="creationdt" column="creationdt"/>
+        <result property="updatedt" column="updatedt"/>
+        <result property="creationuid" column="creationuid"/>
+        <result property="updateuid" column="updateuid"/>
+    </resultMap>
+
+    <select id="getByid" resultMap="Result">
+        select id,uid,record,creationdt,updatedt
+        from bwork
+        WHERE id =#{id}
+    </select>
+
+
+    <select id="getWorks" resultMap="Result">
+        select id,uid,record,creationdt,updatedt
+        from bwork
+        order by id desc
+    </select>
+
+    <insert id="insert" parameterType="com.example.demo.bean.Work">
+        insert bwork(uid,record,creationdt,updatedt)
+        values( #{tid},#{record},now(), now())
+    </insert>
+
+    <update id="updateById" parameterType="com.example.demo.bean.Work">
+        update bwork set record = #{record},
+        updatedt = now()
+        where id = #{id}
+    </update>
+
+
+
+
+</mapper>

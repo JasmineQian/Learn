@@ -1,24 +1,14 @@
 package com.example.demo.bean;
 
-import java.io.Serializable;
-
-public class Content implements Serializable {
+public class Work {
 
     private long id;
-    private int tid;
     private int uid;
-    private String datetime;
-    private String desc;
-    private String details;
-    private String remark;
+    private String record;
     private String creationdt;
     private String updatedt;
     private String creationuid;
     private String updateuid;
-
-    public Content() {
-        super();
-    }
 
     public long getId() {
         return id;
@@ -26,14 +16,6 @@ public class Content implements Serializable {
 
     public void setId(long id) {
         this.id = id;
-    }
-
-    public int getTid() {
-        return tid;
-    }
-
-    public void setTid(int tid) {
-        this.tid = tid;
     }
 
     public int getUid() {
@@ -44,36 +26,13 @@ public class Content implements Serializable {
         this.uid = uid;
     }
 
-    public String getDatetime() {
-        return datetime;
+
+    public String getRecord() {
+        return record;
     }
 
-    public void setDatetime(String datetime) {
-        this.datetime = datetime;
-    }
-
-    public String getDesc() {
-        return desc;
-    }
-
-    public void setDesc(String desc) {
-        this.desc = desc;
-    }
-
-    public String getDetails() {
-        return details;
-    }
-
-    public void setDetails(String details) {
-        this.details = details;
-    }
-
-    public String getRemark() {
-        return remark;
-    }
-
-    public void setRemark(String remark) {
-        this.remark = remark;
+    public void setRecord(String record) {
+        this.record = record;
     }
 
     public String getCreationdt() {
@@ -108,5 +67,16 @@ public class Content implements Serializable {
         this.updateuid = updateuid;
     }
 
-
+    @Override
+    public String toString() {
+        return "Work{" +
+                "id=" + id +
+                ", uid=" + uid +
+                ", record='" + record + '\'' +
+                ", creationdt='" + creationdt + '\'' +
+                ", updatedt='" + updatedt + '\'' +
+                ", creationuid='" + creationuid + '\'' +
+                ", updateuid='" + updateuid + '\'' +
+                '}';
+    }
 }
