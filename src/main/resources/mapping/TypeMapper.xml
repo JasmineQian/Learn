@@ -6,6 +6,10 @@
     <resultMap id="Result" type="com.example.demo.bean.Type">
         <result property="id" column="id"/>
         <result property="name" column="name"/>
+        <result property="creationdt" column="creationdt"/>
+        <result property="updatedt" column="updatedt"/>
+        <result property="creationuid" column="creationuid"/>
+        <result property="updateuid" column="updateuid"/>
 
     </resultMap>
 
@@ -14,15 +18,15 @@
     </select>
 
     <insert id="insert" parameterType="com.example.demo.bean.Type">
-        insert btype (name,cid)
-        values(#{name},1)
+        insert btype (name,cid,creationdt,updatedt)
+        values(#{name},1,now(),now())
     </insert>
 
     <insert id="insertBatch" >
-        insert into btype (name,cid)
+        insert into btype (name,cid,creationdt,updatedt)
         values
         <foreach collection="list" item="item" index="index" separator=",">
-            (#{item.name},1)
+            (#{item.name},1,now(),now())
         </foreach>
     </insert>
 </mapper>
