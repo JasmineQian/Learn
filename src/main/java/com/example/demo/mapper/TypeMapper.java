@@ -10,4 +10,8 @@ public interface TypeMapper {
 
     Type getByid(int id);
 
+    int insert(Type type);
+
+    int insertBatch(List<Type> type);
+
 }

@@ -12,4 +12,17 @@
     <select id="getTypes" resultMap="Result">
         select id,name from btype where cid =1;
     </select>
+
+    <insert id="insert" parameterType="com.example.demo.bean.Type">
+        insert btype (name,cid)
+        values(#{name},1)
+    </insert>
+
+    <insert id="insertBatch" >
+        insert into btype (name,cid)
+        values
+        <foreach collection="list" item="item" index="index" separator=",">
+            (#{item.name},1)
+        </foreach>
+    </insert>
 </mapper>

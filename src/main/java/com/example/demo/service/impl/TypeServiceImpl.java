@@ -37,4 +37,16 @@ public class TypeServiceImpl implements TypeService {
         Type type = typeMapper.getByid(id);
         return type;
     }
+
+    @Override
+    public int add(Type type) {
+        int count = typeMapper.insert(type);
+        return count;
+    }
+
+    @Override
+    public int addBatch(List<Type> lists) {
+        int count = typeMapper.insertBatch(lists);
+        return count;
+    }
 }
