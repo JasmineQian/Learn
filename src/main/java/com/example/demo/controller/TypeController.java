@@ -17,8 +17,8 @@ import java.util.List;
 
 @Validated
 @RestController
-//@RequestMapping("api/type")
-@RequestMapping("type")
+@RequestMapping("api/type")
+//@RequestMapping("type")
 @Api(value = "学习的类型", description = "学习的种类", position = 0)
 public class TypeController {
 

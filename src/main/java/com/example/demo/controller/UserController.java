@@ -18,7 +18,7 @@ import java.util.List;
 
 @Validated
 @RestController
-//@RequestMapping("api")
+@RequestMapping("api")
 @Api(value = "注册和更新用户信息", description = "注册和更新用户信息", position = 0)
 public class UserController {
 
