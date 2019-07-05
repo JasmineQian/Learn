@@ -1,5 +1,6 @@
 package com.example.demo.controller;
 
+import com.example.demo.bean.ResponseBean;
 import com.example.demo.bean.Type;
 import com.example.demo.service.TypeService;
 import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
@@ -16,8 +17,8 @@ import java.util.List;
 
 @Validated
 @RestController
-@RequestMapping("api/type")
-//@RequestMapping("type")
+//@RequestMapping("api/type")
+@RequestMapping("type")
 @Api(value = "学习的类型", description = "学习的种类", position = 0)
 public class TypeController {
 
@@ -31,17 +32,21 @@ public class TypeController {
     @ApiOperation(value = "展示列表请求接口", notes = "展示列表请求接口")
     @ApiImplicitParam(dataType = "", name = "", value = "展示列表请求接口")
     @GetMapping(value = "/showall")
-    public List<Type> findAll() {
+    public ResponseBean<Type> findAll() {
+        ResponseBean responseBean = new ResponseBean();
         List<Type>  lists= typeService.getAll();
-        return lists;
+        responseBean.setData(lists);
+        return responseBean;
     }
 
     @ApiOperation(value = "展示列表请求接口", notes = "展示列表请求接口")
     @ApiImplicitParam(dataType = "", name = "", value = "展示列表请求接口")
     @PostMapping(value = "/add")
-    public int add(@RequestBody Type type) {
+    public ResponseBean add(@RequestBody Type type) {
+        ResponseBean responseBean = new ResponseBean();
         int count = typeService.add(type);
-        return count;
+        responseBean.setData(count);
+        return responseBean;
     }
 
 
@@ -58,6 +63,7 @@ public class TypeController {
             return 0;}
             else {
         int count = typeService.addBatch(list);
+
         return count;
     }
 }}

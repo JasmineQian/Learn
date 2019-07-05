@@ -1,5 +1,6 @@
 package com.example.demo.controller;
 
+import com.example.demo.bean.ResponseBean;
 import com.example.demo.bean.Work;
 import com.example.demo.service.WorkService;
 import io.swagger.annotations.Api;
@@ -16,8 +17,8 @@ import java.util.List;
 
 @Validated
 @RestController
-@RequestMapping("api/work")
-//@RequestMapping("work")
+//@RequestMapping("api/work")
+@RequestMapping("work")
 @Api(value = "对工作进行增删查改", description = "对工作进行增删查改", position = 0)
 public class WorkController {
 
@@ -30,38 +31,46 @@ public class WorkController {
     @ApiOperation(value = "展示列表请求接口", notes = "展示列表请求接口")
     @ApiImplicitParam(dataType = "", name = "", value = "展示列表请求接口")
     @GetMapping(value = "/showall")
-    public List<Work> findAll() {
+    public ResponseBean<Work> findAll() {
+        ResponseBean responseBean = new ResponseBean();
         List<Work>  lists= workService.getAll();
         System.out.println(lists);
-        return lists;
+        responseBean.setData(lists);
+        return responseBean;
     }
 
     @ApiOperation(value = "展示列表请求接口", notes = "展示列表请求接口")
     @ApiImplicitParam(dataType = "", name = "", value = "展示列表请求接口")
     @GetMapping(value = "/show/{id}")
-    public Work findById(@PathVariable("id") int id) {
+    public ResponseBean findById(@PathVariable("id") int id) {
+        ResponseBean responseBean = new ResponseBean();
         Work work= workService.getByid(id);
-        return work;
+        responseBean.setData(work);
+        return responseBean;
     }
 
 
     @ApiOperation(value = "增加新的信息", notes = "增加新的信息")
     @ApiImplicitParam(dataType = "ContentUpdateRequest", name = "content", value = "content")
     @PostMapping(value = "/add")
-    public int addWork(@RequestBody Work work) {
+    public ResponseBean addWork(@RequestBody Work work) {
+        ResponseBean responseBean = new ResponseBean();
         int count= workService.insert(work);
-        return count;
+        responseBean.setData(count);
+        return responseBean;
     }
 
 
     @ApiOperation(value = "更新Content内容", notes = "更新Content内容")
     @ApiImplicitParam(dataType = "ContentUpdateRequest", name = "content", value = "增加content信息", required = true)
     @PostMapping(value = "/update/{id}")
-    public int updateContent(@PathVariable("id") int id,@RequestBody Work work) {
+    public ResponseBean updateContent(@PathVariable("id") int id,@RequestBody Work work) {
         work.setId(id);
         System.out.println(work);
+        ResponseBean responseBean= new ResponseBean();
         int count = workService.update(work);
-        return count;
+        responseBean.setData(count);
+        return responseBean;
     }
 
 }
